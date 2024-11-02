@@ -9,8 +9,8 @@ namespace Interceptors
 {
     public static class Interceptor
     {
-        [InterceptsLocation("Program.cs", line: 11, column: 18)]
-        [InterceptsLocation("Program.cs", line: 13, column: 18)]
+        [InterceptsLocation("D:\\GitHub\\FullStack202411\\Module I\\01\\CSharp12\\Interceptors\\Program.cs", line: 11, column: 18)]
+        [InterceptsLocation("D:\\GitHub\\FullStack202411\\Module I\\01\\CSharp12\\Interceptors\\Program.cs", line: 13, column: 18)]
         public static void InterceptorDisplay(this Employee employee, string name)
         {
             Console.WriteLine($"Interceptor Display {name}");
